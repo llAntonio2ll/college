@@ -1,15 +1,63 @@
 body {
 	background-color: #228CDB;
+	font-family: 'Krub', sans-serif;
+}
+
+.second {
+	background-color: white;
 }
 img {
 	width: 100%;
+}
+
+.colleges {
+	width: 200px;
+	height: 200px;
+}
+
+.careers {
+	height: 300px;
+	width: 300px;
 }
 
 .companies {
 	width: 200px;
 }
 
-.careers {
-	height: 300px;
-	width: 300px;
+.test {
+	z-index: 100;
+	margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 200;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    z-index: 200;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
 }
