@@ -8,6 +8,7 @@ body {
 }
 img {
 	width: 100%;
+	display: block;
 }
 
 .colleges {
@@ -67,36 +68,38 @@ li a.active {
     color: white;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  height: 100%;
+.container2 {
+    position: relative;
+    width: 100%;
+    display: inline-block;
 }
 
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background-color: #008cba;
+}
+.container2:hover .overlay{
+    opacity: .9;
+}
+
+.overlayBottom{
+    width: 84%;
+    height: 0;
+    bottom:0;
+    left:0;
+    background-color: grey;
+}
+.container2:hover .overlayBottom {
+    height: 100%;
 }
