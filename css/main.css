@@ -1,11 +1,16 @@
 body {
-	background-color: #228CDB;
+	/*background-color: #228CDB;*/
+	background-color: white;
 	font-family: 'Krub', sans-serif;
 }
 
-.second {
-	background-color: white;
+.background {
+	background-color: #228CDB;
 }
+
+/*.second {
+	background-color: white;
+}*/
 img {
 	width: 100%;
 	display: block;
@@ -102,4 +107,29 @@ li a.active {
 }
 .container2:hover .overlayBottom {
     height: 100%;
+}
+
+.info {
+	border: 10px solid #103BA0;
+	background-color: #008BF8;
+}
+
+p {
+	color: #250001;
+}
+
+h1 {
+	color: #6539AD;
+}
+
+h2 {
+	color: #6539AD;
+}
+
+.info2 {
+	line-height: 38px;
+}
+
+.captions {
+	color: white;
 }
